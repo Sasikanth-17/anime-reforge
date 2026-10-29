@@ -1,0 +1,26 @@
+Metadata-Version: 2.4
+Name: anime-reforge
+Version: 0.1.0
+Summary: High-precision cinematic restyling and rotoscoping pipeline for animation
+Author: Core Dev
+License: Apache-2.0
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: torch>=2.2.0
+Requires-Dist: torchvision>=0.17.0
+Requires-Dist: torchaudio>=2.2.0
+Requires-Dist: diffusers>=0.28.0
+Requires-Dist: transformers>=4.40.0
+Requires-Dist: accelerate>=0.30.0
+Requires-Dist: controlnet-aux>=0.0.8
+Requires-Dist: av>=12.0.0
+Requires-Dist: opencv-python-headless>=4.9.0
+Requires-Dist: numpy<2.0.0,>=1.26.0
+Requires-Dist: pydantic>=2.7.0
+Requires-Dist: pyyaml>=6.0.1
+Requires-Dist: click>=8.1.7
+Requires-Dist: rich>=13.7.1
+Requires-Dist: tqdm>=4.66.0
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0.0; extra == "dev"
+Requires-Dist: ruff>=0.4.0; extra == "dev"

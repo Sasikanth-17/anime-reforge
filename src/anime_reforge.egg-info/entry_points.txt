@@ -1,0 +1,2 @@
+[console_scripts]
+reforge = reforge.cli:main
